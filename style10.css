@@ -1281,3 +1281,35 @@ footer a {
 footer a:hover {
     color: #000;
 }
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 60px 80px;
+}
+
+#footer .col {
+    min-width: 250px;
+}
+
+#footer h2 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+#footer h4 {
+    margin-bottom: 15px;
+}
+
+#footer a {
+    display: block;
+    text-decoration: none;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+#footer a:hover {
+    color: #000;
+}
